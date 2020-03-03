@@ -1,0 +1,31 @@
+{
+  "name": "support-node-v6",
+  "version": "1.0.0",
+  "description": "Example bundling and transpiling an NPM module to still support Node v6",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js",
+    "transpile": "tsc --allowJs --target ES5 dist/index.js --outFile dist/out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/support-node-v6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/support-node-v6/issues"
+  },
+  "homepage": "https://github.com/bahmutov/support-node-v6#readme",
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "chalk": "3.0.0",
+    "execa": "4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "13.7.7",
+    "@zeit/ncc": "0.21.1",
+    "typescript": "3.8.3"
+  }
+}
