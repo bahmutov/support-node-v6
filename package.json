@@ -20,12 +20,11 @@
     "url": "https://github.com/bahmutov/support-node-v6/issues"
   },
   "homepage": "https://github.com/bahmutov/support-node-v6#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "babel-polyfill": "6.26.0",
     "chalk": "3.0.0",
-    "execa": "4.0.0"
-  },
-  "devDependencies": {
+    "execa": "4.0.0",
     "@types/node": "13.7.7",
     "@zeit/ncc": "0.21.1",
     "typescript": "3.8.3"
